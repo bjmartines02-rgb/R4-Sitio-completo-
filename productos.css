@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #FAF3E0;
+}
+
+header {
+    background-color: #581020;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+
+.logo {
+    width: 55px;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+}
+
+nav a button {
+    background-color: transparent;
+    border: none;
+    color: #F4D35E;
+    font-size: 25px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav a button:hover {
+    color: #C1121F;
+}
+
+h1 {
+    margin: 40px;
+    color: rgb(53, 13, 13);
+}
+
+h2 {
+    margin: 0 40px 40px;
+    color: rgb(126, 7, 56);
+}
+
+.productos {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.producto {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.producto img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.producto h3 {
+    margin-bottom: 15px;
+}
+
+.producto button {
+    background-color: #F4D35E;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+    background-color: #C1121F;
+    color: white;
+}
+footer {
+    background-color: #581020;
+    color: #F4D35E;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}

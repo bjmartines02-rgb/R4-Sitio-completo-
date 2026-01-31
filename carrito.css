@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #FAF3E0;
+}
+
+header {
+    background-color: #581020;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+
+.logo {
+    width: 55px;
+    border-radius: 12px;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+}
+
+nav a button {
+    background-color: transparent;
+    border: none;
+    color: #F4D35E;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav a button:hover {
+    color: #C1121F;
+}
+
+.carrito {
+    width: 55%;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.carrito h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item p {
+    font-size: 16px;
+}
+
+.total {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.carrito button {
+    margin-top: 25px;
+    background-color: #F4D35E;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carrito button:hover {
+    background-color: #C1121F;
+    color: white;
+}
+footer {
+    background-color: #581020;
+    color: #F4D35E;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}

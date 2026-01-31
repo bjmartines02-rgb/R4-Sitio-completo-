@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: rgb(245, 248, 255);
+    line-height: 1.8;
+}
+
+header {
+    background-color: rgb(88, 10, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    padding: 0 40px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+}
+
+nav a,
+button {
+    text-decoration: none;
+    color: rgb(255, 225, 0);
+    font-size: 25px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 0px solid black;
+    padding: 7px 12px;
+    cursor: pointer;
+    transition: color 0.4s ease, border 0.4s ease;
+}
+
+nav a:hover,
+button:hover {
+    color: rgb(255, 9, 9);
+    border-color: white;
+}
+
+img {
+    border-radius: 24%;
+}
+
+img:nth-child(1) {
+    width: 65px;
+}
+
+img:nth-child(2) {
+    width: 140px;
+}
+
+img:nth-child(3) {
+    width: 75px;
+}
+
+h1 {
+    color: rgb(119, 2, 2);
+    margin: 30px 40px;
+    letter-spacing: 1.2px;
+}
+
+h2 {
+    color: rgb(2, 2, 2);
+    margin: 25px 40px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    margin: 20px 40px;
+    letter-spacing: 0.8px;
+}
+footer {
+    background-color: #581020;
+    color: #F4D35E;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
